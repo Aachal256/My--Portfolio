@@ -1,25 +1,27 @@
+//import React, { useState } from "react";
 import React, { useState } from "react";
 import { navLinkData } from "../../constants/index";
 import { Link } from "react-scroll";
 import { TfiAlignJustify } from "react-icons/tfi";
 import { TfiClose } from "react-icons/tfi";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+ 
 
 function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
 
   const gotoX = () => {
     // Redirect to to my Twitter Account
-    window.location.href = "https://x.com/Dipanjan1572003";
+    window.location.href = "https://x.com/Aachal_Thaware";
   };
   const gotoLinkedin = () => {
     // Redirect to my Linkedin Account
     window.location.href =
-      "https://www.linkedin.com/in/dipanjan-roy-0a09b727a/";
+     "https://www.linkedin.com/in/aachal-thaware-a05940214 ";
   };
   const github = () => {
     // Redirect to my GitHub Account
-    window.location.href = "https://github.com/RoyDipanjanReek";
+    window.location.href = "https://github.com/Aachal256 ";
   };
 
   return (
@@ -31,7 +33,7 @@ function NavBar() {
         <ul className="hidden md:inline-flex  items-center gap-6 lgl:gap-10">
           {navLinkData.map(({ _id, title, link }) => (
             <li
-              className="test-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
               <Link
@@ -60,16 +62,16 @@ function NavBar() {
               <div>
                 {""}
                 <p className="text-sm text-gray-400 mt-2">
-                  I am from India and currently living in Durgapur. I am Doing
-                  my Bachelor's in Software Engineering and i will graduate in
-                  2026. I am a MERN Stack developer and this is my protofolio.
+                  I am from India and currently living in Bhopal. 
+                  Aspiring Frontend Developer |
+                  Building Scalable SaaS products | SQL | React JS | Learning NodeJS
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinkData.map((item) => (
                   <li
                     key={item._id}
-                    className="test-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
                   >
                     <Link
                       onClick={() => setShowMenu(false)}

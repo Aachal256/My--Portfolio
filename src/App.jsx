@@ -1,9 +1,12 @@
+
 import NavBar from './Components/navBar/NavBar'
 import './App.css'
 import Banner from './Components/banner/Banner'
 import Projects from './Components/project/Projects'
 import Contact from './contact/Contact'
 import Skills from './Components/allSkill/AllSkills'
+ 
+
 
 function App() {
   

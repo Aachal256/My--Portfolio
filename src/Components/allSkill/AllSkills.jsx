@@ -8,10 +8,9 @@ import {
   photo6,
   photo7,
   photo8,
-  photo9,
   photo10,
   photo11,
-  photo12,
+  
 } from "../../assets/Index.js";
 function Skills() {
   return (
@@ -31,10 +30,9 @@ function Skills() {
               photo6,
               photo7,
               photo8,
-              photo9,
               photo10,
               photo11,
-              photo12,
+              
             ].map((photo, index) => (
               <img
                 key={index}

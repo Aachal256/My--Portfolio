@@ -1,10 +1,10 @@
-import React from "react";
+ 
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function Leftbanner() {
   const [text] = useTypewriter({
-    words: ["MERN Stack Developer"],
+    words: ["FRONT-END DEVELOPER"],
     loop: true,
     typeSpeed: 60,
     deleteSpeed: 100,
@@ -12,16 +12,16 @@ function Leftbanner() {
   });
   const gotoX = () => {
     // Redirect to to my Twitter Account
-    window.location.href = "https://x.com/Dipanjan1572003"; // Replace with the desired URL
+    window.location.href = "https://x.com/Aachal_Thaware"; // Replace with the desired URL
   };
   const gotoLinkedin = () => {
     // Redirect to my Linkedin Page
     window.location.href =
-      "https://www.linkedin.com/in/dipanjan-roy-0a09b727a/";
+      "https://www.linkedin.com/in/aachal-thaware-a05940214 ";
   };
   const github = () => {
     // Redirect to my GitHub page
-    window.location.href = "https://github.com/RoyDipanjanReek";
+    window.location.href = "https://github.com/Aachal256 ";
   };
 
   return (
@@ -31,10 +31,10 @@ function Leftbanner() {
         <h1 className="text-6xl font-bold text-white">
           {" "}
           Hi, I am{" "}
-          <span className="text-designColor capitalize">Dipanjan Roy</span>
+          <span className="text-designColor capitalize">Aachal Thaware</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span> {text}.</span>
+          AS A <span> {text}.</span>
           <Cursor cursorBlinking="false" cursorStyle=" | " cursorColor="red" />
         </h2>
       </div>

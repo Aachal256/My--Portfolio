@@ -4,20 +4,20 @@ export const navLinkData = [
     title: "Home",
     link: "home",
   },
-
   {
     _id: 1002,
-    title: "Projects",
-    link: "projects",
-  },
-  {
-    _id: 1003,
-    title: "Contact",
-    link: "contacts",
-  },
-  {
-    _id: 1004,
     title: "Skills",
     link: "skills",
   },
-];
+  {
+    _id: 1003,
+     title: "Projects",
+    link: "projects",
+  },
+  {
+    _id: 1004,
+     title: "Contact",
+    link: "contacts", 
+  },
+];  
+     

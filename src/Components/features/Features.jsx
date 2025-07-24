@@ -1,8 +1,8 @@
-import React from "react";
+
 import Title from "../layout/Title";
 import Card from "./Card";
 
-function Features(props) {
+function Features() {
   return (
     <section
       id="features"

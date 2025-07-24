@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 
 function Title({ title, des }) {
   return (
@@ -11,5 +12,10 @@ function Title({ title, des }) {
     </div>
   );
 }
+
+Title.propTypes = {
+  title: PropTypes.string.isRequired,
+  des: PropTypes.string.isRequired,
+};
 
 export default Title;

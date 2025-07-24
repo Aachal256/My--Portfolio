@@ -1,33 +1,33 @@
 import React from "react";
-import { blog, image, learning } from "../../assets/Index.js";
+import { Travel, Weather, Password } from "../../assets/Index.js";
 
 const projects = [
   {
-    // Learning Progress Tracker data is here
+    // Travel Destination Explorer project is here
     id: "1",
-    title: "Learning Progress Tracker",
-    des: "Develop a backend system that tracks user's progress in various courses, allowing users to view and update their learning milestones. ",
-    src: learning,
-    githubURL: "https://github.com/RoyDipanjanReek/Learning_Progress_Tracker",
-    deployURL: "",
+    title: "Travel Destination Explorer",
+    des: "I built this using React JS to help users discover amazing travel destinations with beautiful images and detailed descriptions. ",
+    src: Travel,
+    githubURL: "https://github.com/Aachal256/Travel-Destination-Explorer",
+    deployURL: "https://travel-destination-explorer-topaz.vercel.app",
   },
   {
-    // Bloggife Project data is here
+    // Weather application Project data is here
     id: "2",
-    title: "Bloggife",
-    des: "A full-stack, modern Blog Application built with Next.js that lets users create, read, update, and delete blog posts.",
-    src: blog,
-    githubURL: "https://github.com/RoyDipanjanReek/Bolggife",
-    deployURL: "",
+    title: "Weather application",
+    des: "A weather forecasting app built with ReactJS that allows users to search for real-time weather data by city.",
+    src: Weather,
+    githubURL: "https://github.com/Aachal256/weather-application",
+    deployURL: "https://weather-application-aachal.netlify.app",
   },
   {
-    // Resize Image Project data is here
+    // Password Generator Project data is here
     id: "3",
-    title: "Resize Image",
-    des: "A full-stack web app for resizing and compressing images/videos effortlessly.",
-    src: image,
-    githubURL: "https://github.com/RoyDipanjanReek/Resize-Image",
-    deployURL: "",
+    title: "Password Generator",
+    des: "A customizable password generator built using JavaScript/React, allowing users to create secure passwords based on selected criteria.",
+    src: Password,
+    githubURL: "https://github.com/Aachal256/Password-Generator",
+    deployURL: "https://password-generator-aachal.netlify.app",
   },
 ];
 

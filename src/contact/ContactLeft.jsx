@@ -1,20 +1,20 @@
-import React from "react";
+ 
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { pexels } from "../assets/Index.js";
 
-function ContactLeft(props) {
+function ContactLeft()  { 
   const gotoX = () => {
     // Redirect to the external page
-    window.location.href = "https://x.com/Dipanjan1572003"; // Replace with the desired URL
+    window.location.href =  "https://x.com/Aachal_Thaware";// Replace with the desired URL
   };
   const gotoLinkedin = () => {
     // Redirect to the external page
     window.location.href =
-      "https://www.linkedin.com/in/dipanjan-roy-0a09b727a/";
+       "https://www.linkedin.com/in/aachal-thaware-a05940214 ";
   };
   const github = () => {
     // Redirect to the external page
-    window.location.href = "https://github.com/RoyDipanjanReek";
+    window.location.href = "https://github.com/Aachal256 ";
   };
 
   return (
@@ -25,9 +25,9 @@ function ContactLeft(props) {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Dipanjan Roy</h3>
+        <h3 className="text-3xl font-bold text-white">Aachal Thaware</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+          FRONT-END DEVELOPER
         </p>
         <p className="text-base text-gray-400 tracking-wide">
           I love connecting with like-minded developers to share ideas and
@@ -36,7 +36,7 @@ function ContactLeft(props) {
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email:{" "}
-          <span className="text-lightText">dipanjanroy2003@gmail.com</span>
+          <span className="text-lightText">aachalthaware52@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">

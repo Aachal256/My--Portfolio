@@ -1,6 +1,6 @@
-import React from "react";
+
 import Leftbanner from "./Leftbanner";
-import { BannerImg } from "../../assets/Index";
+import profile_photo from "../../assets/Photos/profile_photo.jpg";
 
 function Banner() {
   return (
@@ -12,9 +12,10 @@ function Banner() {
 
       <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
         <img
-          className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[600px] z-10"
-          src={BannerImg}
-          alt="bannerImg"
+          //className="w-[300px] h-[350px] lgl:w-[400px] lgl:h-[450px] z-10"
+          className="w-[350px] h-auto lgl:w-[500px] max-h-[600px] rounded-xl object-cover shadow-lg z-10"
+          src={profile_photo}  
+          alt="profile_photo"
         />
         <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center rounded-t-full"></div>
       </div>
